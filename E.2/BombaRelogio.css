@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: rgb(151, 25, 255);
+    font-family: Arial, sans-serif;
+    font-size: 15vh;
+    text-align: center;
+}
+
+#contador {
+    font-weight: bold;
+}
+
+/* Estilos para o estado de "explosão" */
+
+.explosao {
+    background-color: rgb(228, 190, 21);
+    color: rgb(168, 14, 14);
+}
+
