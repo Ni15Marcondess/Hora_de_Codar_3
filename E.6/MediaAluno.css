@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 5vh;
+    text-align: center;
+}
+
+p{
+    font-size: 2vh;
+    text-align: center;
+}
+
+.entrada{
+    text-align: center;
+    font-size: 5vh;
+}
+
+input{
+    font-size: 3vh;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+
+}
+
+button{
+    font-size: 2vh;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+.botao{
+    text-align: center;
+    margin-top: 3vh;
+}

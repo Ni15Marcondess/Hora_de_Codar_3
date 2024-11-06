@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem de Valores no Intervalo</title>
+    <link rel="stylesheet" href="./ForaDiIntervalo.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Verificação de Valores</h1>
+        <p>Informe 10 valores. O programa vai verificar quantos estão entre 24 e 42 (inclusive) e quantos estão fora desse intervalo.</p>
+        <div id="input-container">
+            <input type="number" id="valor1" placeholder="Valor 1">
+            <input type="number" id="valor2" placeholder="Valor 2">
+            <input type="number" id="valor3" placeholder="Valor 3">
+            <input type="number" id="valor4" placeholder="Valor 4">
+            <input type="number" id="valor5" placeholder="Valor 5">
+            <input type="number" id="valor6" placeholder="Valor 6">
+            <input type="number" id="valor7" placeholder="Valor 7">
+            <input type="number" id="valor8" placeholder="Valor 8">
+            <input type="number" id="valor9" placeholder="Valor 9">
+            <input type="number" id="valor10" placeholder="Valor 10">
+        </div>
+
+        <button onclick="contarValores()">Verificar</button>
+
+        <div id="resultado">
+            <p id="dentro"></p>
+            <p id="fora"></p>
+        </div>
+    </div>
+
+    <script src="./ForaDoIntervalo.js"></script>
+</body>
+</html>

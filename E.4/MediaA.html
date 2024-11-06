@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Média Aritmética</title>
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(61, 60, 60);
+        }
+
+        h1{
+            color: aliceblue;
+            font-size: 5vh;
+            text-align: center;
+        }
+
+        p{
+            font-size: 2vh;
+            text-align: center;
+            color: beige;
+            
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <h1>Média Aritmética de 15 a 100</h1>
+
+    <p id="resultado"></p>
+
+    <script>
+        let soma = 0;
+        let contador = 0;
+
+        for (let i = 15; i <= 100; i++) {
+            soma += i;
+            contador++;
+        }
+
+        const media = soma / contador;
+
+        document.getElementById("resultado").textContent = 
+            `A média aritmética dos números entre 15 e 100 é: ${media}`;
+    </script>
+
+</body>
+</html>
